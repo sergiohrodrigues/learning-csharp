@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\projetos-csharp\\s7\\topicsSpecials\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6609AF-55F4-48F0-94F6-5DE728B5FBCF}|topicsSpecials.csproj|b:\\projetos-csharp\\s7\\topicsspecials\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A6609AF-55F4-48F0-94F6-5DE728B5FBCF}|topicsSpecials.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s7\\topicsSpecials\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "B:\\projetos-csharp\\s7\\topicsSpecials\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAJMAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:14:29.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

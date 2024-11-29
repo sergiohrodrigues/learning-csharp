@@ -1,0 +1,14 @@
+B:\projetos-csharp\s9\entities\bin\Debug\net6.0\entities.exe
+B:\projetos-csharp\s9\entities\bin\Debug\net6.0\entities.deps.json
+B:\projetos-csharp\s9\entities\bin\Debug\net6.0\entities.runtimeconfig.json
+B:\projetos-csharp\s9\entities\bin\Debug\net6.0\entities.dll
+B:\projetos-csharp\s9\entities\bin\Debug\net6.0\entities.pdb
+B:\projetos-csharp\s9\entities\obj\Debug\net6.0\entities.GeneratedMSBuildEditorConfig.editorconfig
+B:\projetos-csharp\s9\entities\obj\Debug\net6.0\entities.AssemblyInfoInputs.cache
+B:\projetos-csharp\s9\entities\obj\Debug\net6.0\entities.AssemblyInfo.cs
+B:\projetos-csharp\s9\entities\obj\Debug\net6.0\entities.csproj.CoreCompileInputs.cache
+B:\projetos-csharp\s9\entities\obj\Debug\net6.0\entities.dll
+B:\projetos-csharp\s9\entities\obj\Debug\net6.0\refint\entities.dll
+B:\projetos-csharp\s9\entities\obj\Debug\net6.0\entities.pdb
+B:\projetos-csharp\s9\entities\obj\Debug\net6.0\entities.genruntimeconfig.cache
+B:\projetos-csharp\s9\entities\obj\Debug\net6.0\ref\entities.dll

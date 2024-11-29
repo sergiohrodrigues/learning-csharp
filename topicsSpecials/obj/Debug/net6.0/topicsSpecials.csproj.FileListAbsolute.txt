@@ -1,0 +1,14 @@
+B:\projetos-csharp\s7\topicsSpecials\bin\Debug\net6.0\topicsSpecials.exe
+B:\projetos-csharp\s7\topicsSpecials\bin\Debug\net6.0\topicsSpecials.deps.json
+B:\projetos-csharp\s7\topicsSpecials\bin\Debug\net6.0\topicsSpecials.runtimeconfig.json
+B:\projetos-csharp\s7\topicsSpecials\bin\Debug\net6.0\topicsSpecials.dll
+B:\projetos-csharp\s7\topicsSpecials\bin\Debug\net6.0\topicsSpecials.pdb
+B:\projetos-csharp\s7\topicsSpecials\obj\Debug\net6.0\topicsSpecials.GeneratedMSBuildEditorConfig.editorconfig
+B:\projetos-csharp\s7\topicsSpecials\obj\Debug\net6.0\topicsSpecials.AssemblyInfoInputs.cache
+B:\projetos-csharp\s7\topicsSpecials\obj\Debug\net6.0\topicsSpecials.AssemblyInfo.cs
+B:\projetos-csharp\s7\topicsSpecials\obj\Debug\net6.0\topicsSpecials.csproj.CoreCompileInputs.cache
+B:\projetos-csharp\s7\topicsSpecials\obj\Debug\net6.0\topicsSpecials.dll
+B:\projetos-csharp\s7\topicsSpecials\obj\Debug\net6.0\refint\topicsSpecials.dll
+B:\projetos-csharp\s7\topicsSpecials\obj\Debug\net6.0\topicsSpecials.pdb
+B:\projetos-csharp\s7\topicsSpecials\obj\Debug\net6.0\topicsSpecials.genruntimeconfig.cache
+B:\projetos-csharp\s7\topicsSpecials\obj\Debug\net6.0\ref\topicsSpecials.dll

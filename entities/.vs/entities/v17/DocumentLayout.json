@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\projetos-csharp\\s9\\entities\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\entities\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:entities\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|b:\\projetos-csharp\\s9\\entities\\entities\\hourcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0888045-063C-4E17-A95E-515694716A36}|entities.csproj|solutionrelative:entities\\hourcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "Entities\\Client.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Entities\\Client.cs",
+              "RelativeToolTip": "Entities\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T09:54:26.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Entities\\OrderItem.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Entities\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T09:49:13.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Entities\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Entities\\Enums\\OrderStatus.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Entities\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "Entities\\Enums\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T09:46:27.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Entities\\Order.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Entities\\Order.cs",
+              "RelativeToolTip": "Entities\\Order.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4vyAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T09:45:16.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Post.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "Entities\\Post.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Entities\\Post.cs",
+              "RelativeToolTip": "Entities\\Post.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwCUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:49:05.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T09:49:37.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Entities\\Worker.cs",
+              "RelativeDocumentMoniker": "Entities\\Worker.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Entities\\Worker.cs",
+              "RelativeToolTip": "Entities\\Worker.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T09:23:19.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HourContract.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Entities\\HourContract.cs",
+              "RelativeDocumentMoniker": "Entities\\HourContract.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Entities\\HourContract.cs",
+              "RelativeToolTip": "Entities\\HourContract.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T09:19:33.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "Entities\\Department.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Entities\\Department.cs",
+              "RelativeToolTip": "Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T09:17:36.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "B:\\projetos-csharp\\s9\\entities\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "B:\\projetos-csharp\\s9\\entities\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T09:51:05.764Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
