@@ -26,3 +26,4 @@ B:\learning-csharp\inheritanceAndPolymorphism\obj\Debug\net8.0\refint\inheritanc
 B:\learning-csharp\inheritanceAndPolymorphism\obj\Debug\net8.0\inheritanceAndPolymorphism.pdb
 B:\learning-csharp\inheritanceAndPolymorphism\obj\Debug\net8.0\inheritanceAndPolymorphism.genruntimeconfig.cache
 B:\learning-csharp\inheritanceAndPolymorphism\obj\Debug\net8.0\ref\inheritanceAndPolymorphism.dll
+B:\learning-csharp\inheritanceAndPolymorphism\obj\Debug\net8.0\inheritanceAndPolymorphism.sourcelink.json

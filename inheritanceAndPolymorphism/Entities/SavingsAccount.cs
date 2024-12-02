@@ -1,6 +1,7 @@
 ﻿namespace inheritanceAndPolymorphism.Entities
 {
-    internal class SavingsAccount : Account
+    //sealed 
+        internal class SavingsAccount : Account
     {
         public double InteresRate { get; set; }
         public SavingsAccount() { }
@@ -16,7 +17,9 @@
             Balance += Balance * InteresRate;
         }
 
-        public override void WithDraw(double amount)
+        public 
+            //sealed 
+            override void WithDraw(double amount)
         {
             base.WithDraw(amount);
             Balance -= 2.0;
