@@ -1,4 +1,5 @@
-﻿using inheritanceAndPolymorphism.Entities;
+﻿using System.Globalization;
+using inheritanceAndPolymorphism.EntitiesExercice1;
 
 //BusinessAccount account = new BusinessAccount(1080, "Bob Brown", 100.0, 500.0);
 
@@ -42,11 +43,59 @@
 
 
 //Sobreposições, palavra virtual, override e base
-Account acc1 = new Account(1001, "Alex", 500.0);
-Account acc2 = new SavingsAccount(1002, "Anna", 500.0, 0.01);
+//Account acc1 = new Account(1001, "Alex", 500.0);
+//Account acc2 = new SavingsAccount(1002, "Anna", 500.0, 0.01);
 
-acc1.WithDraw(10.0);
-acc2.WithDraw(10.0);
+//acc1.WithDraw(10.0);
+//acc2.WithDraw(10.0);
 
-Console.WriteLine(acc1.Balance);
-Console.WriteLine(acc2.Balance);
+//Console.WriteLine(acc1.Balance);
+//Console.WriteLine(acc2.Balance);
+
+
+
+// EXERCICIO FICCAÇÃO #1
+
+/*List<Employee> list = new List<Employee>();
+
+Console.Write("Enter the number of employess: ");
+int n = int.Parse(Console.ReadLine());
+for (int i = 1; i <= n; i++)
+{
+    Console.WriteLine($"Employee #{i} data:");
+    Console.Write("Outsourced (y/n)? ");
+    char emp = char.Parse(Console.ReadLine());
+
+    if(emp != 'y' && emp != 'n')
+    {
+        Console.WriteLine("Por favor digite 'y' ou 'n'.");
+        Console.Write($"Employee #{i} data: ");
+        emp = char.Parse(Console.ReadLine());
+    }
+
+    Console.Write("Name: ");
+    string name = Console.ReadLine();
+    Console.Write("Hours: ");
+    int hours = int.Parse(Console.ReadLine());
+    Console.Write("Value per hour: ");
+    double valuePorHour = double.Parse(Console.ReadLine());
+    if(emp == 'y')
+    {
+        Console.Write("Additional charge: ");
+        double addCharge = double.Parse(Console.ReadLine());
+        list.Add(new OutsourcedEmployee(name, hours, valuePorHour, addCharge));
+    } else
+    {
+        list.Add(new Employee(name, hours, valuePorHour));
+    }
+
+}
+    Console.WriteLine("PAYMENTS:");
+    foreach(Employee e in list)
+    {
+        Console.WriteLine($"{e.Name} - $ {e.Payment().ToString("F2", CultureInfo.InvariantCulture)}");
+    }*/
+
+
+// EXERCICIO FICCAÇÃO #2
+
