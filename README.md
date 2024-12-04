@@ -1,4 +1,4 @@
-## Olá, esse é um repositório dedicado aos meus estudos na linguagem de programação c#.
+## Olá, esse é um repositório dedicado aos meus estudos na linguagem de programação C#.
 
 ### Todos os dias separo entre 1 e 2 horas do meu dia para estudar o curso do Nélio Alves.
 
