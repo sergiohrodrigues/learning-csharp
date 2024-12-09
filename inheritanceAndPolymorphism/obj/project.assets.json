@@ -8,29 +8,27 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Sergio\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Sergio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\learning-csharp\\inheritanceAndPolymorphism\\inheritanceAndPolymorphism.csproj",
+      "projectUniqueName": "E:\\Nova pasta\\learning\\inheritanceAndPolymorphism\\inheritanceAndPolymorphism.csproj",
       "projectName": "inheritanceAndPolymorphism",
-      "projectPath": "B:\\learning-csharp\\inheritanceAndPolymorphism\\inheritanceAndPolymorphism.csproj",
+      "projectPath": "E:\\Nova pasta\\learning\\inheritanceAndPolymorphism\\inheritanceAndPolymorphism.csproj",
       "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
-      "outputPath": "B:\\learning-csharp\\inheritanceAndPolymorphism\\obj\\",
+      "outputPath": "E:\\Nova pasta\\learning\\inheritanceAndPolymorphism\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "D:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -47,9 +45,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -70,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
