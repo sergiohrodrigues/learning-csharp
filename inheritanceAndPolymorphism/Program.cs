@@ -137,5 +137,3 @@ foreach(Product i in p)
 {
     Console.WriteLine(i.PriceTag());
 }
-
-Console.WriteLine("Oi");
