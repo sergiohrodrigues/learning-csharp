@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "B:\\learning-csharp\\inheritanceAndPolymorphism\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\Nova pasta\\learning\\inheritanceAndPolymorphism\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D357E0-7A2D-416C-85AF-079B04B6EF88}|inheritanceAndPolymorphism.csproj|e:\\nova pasta\\learning\\inheritanceandpolymorphism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D357E0-7A2D-416C-85AF-079B04B6EF88}|inheritanceAndPolymorphism.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\learning\\inheritanceAndPolymorphism\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Nova pasta\\learning\\inheritanceAndPolymorphism\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAawP0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:35:35.222Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
