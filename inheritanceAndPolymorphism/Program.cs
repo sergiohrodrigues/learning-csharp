@@ -1,5 +1,7 @@
 ﻿using System.Globalization;
+using inheritanceAndPolymorphism.Entities_2;
 using inheritanceAndPolymorphism.EntitiesExercice1;
+using inheritanceAndPolymorphism.EntitiesExercice2;
 
 //BusinessAccount account = new BusinessAccount(1080, "Bob Brown", 100.0, 500.0);
 
@@ -99,3 +101,39 @@ for (int i = 1; i <= n; i++)
 
 // EXERCICIO FICCAÇÃO #2
 
+List<Product> p = new List<Product>();
+
+Console.Write("Enter the number of products: ");
+int n = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= n; i++)
+{
+    Console.WriteLine($"Product #{i} data:");
+    Console.Write("Common, used or imported (c/u/i)? ");
+    string prod = Console.ReadLine();
+    Console.Write("Name: ");
+    string name = Console.ReadLine();
+    Console.Write("Price: ");
+    double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    if(prod == "c")
+    {
+        p.Add(new Product(name, price));
+    } else if(prod == "i")
+    {
+        Console.Write("Customs fee: ");
+        double fee = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+        p.Add(new ImportedProduct(name, price, fee));
+    } else if(prod == "u")
+    {
+        Console.Write("Manufacture Date (DD/MM/YYYY): ");
+        DateTime date = DateTime.Parse(Console.ReadLine());
+        p.Add(new UsedProduct(name, price, date));
+    }
+}
+
+Console.WriteLine();
+Console.WriteLine("PRICE TAGS: ");
+foreach(Product i in p)
+{
+    Console.WriteLine(i.PriceTag());
+}
