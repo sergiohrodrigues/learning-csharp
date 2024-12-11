@@ -1,8 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Globalization;
 using approachTreatment.Entities;
 using approachTreatment.Entities.Exceptions;
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
 
 // TRY / CATCH
@@ -49,7 +50,7 @@ finally
 
 
 // CRIANDO EXCEÇÕES PERSONALIZADAS #1
-try
+/*try
 {
     Console.Write("Room number: ");
     int number = int.Parse(Console.ReadLine());
@@ -82,5 +83,37 @@ catch (DomainException e)
 catch (Exception e)
 {
     Console.WriteLine("Unexpected error: " + e.Message);
+}*/
+
+
+
+// EXERCICIO PARA FIXAÇÃO
+    Account acc = new Account();
+
+    Console.WriteLine("Enter account data");
+    Console.Write("Number: ");
+    int num = int.Parse(Console.ReadLine());
+    Console.Write("Holder: ");
+    string name  = Console.ReadLine();
+    Console.Write("Initial balance: ");
+    double balance = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    Console.Write("Withdraw limit: ");
+    double limit = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+    acc = new Account(num, name, balance, limit);
+
+    Console.WriteLine();
+    Console.Write("Enter amount for withdraw: ");
+    double withdraw = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+try
+{
+    acc.Withdraw(withdraw);
+
+    Console.WriteLine("New Balance: " + acc.Balance.ToString("F2", CultureInfo.InvariantCulture));
 }
-        
+catch (DomainException e)
+{
+    Console.WriteLine("Withdraw error: " + e.Message);
+}
+
