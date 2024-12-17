@@ -141,3 +141,5 @@ Console.WriteLine("GetTempPath: " + Path.GetTempPath());*/
 
 
 //Exercicios
+
+Console.WriteLine("teste");
