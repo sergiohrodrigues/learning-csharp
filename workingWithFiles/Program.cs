@@ -1,26 +1,29 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Collections;
+using System.Globalization;
+using System.IO.Pipes;
+using workingWithFiles.Entities;
 
-string sourcePath = @"D:\file1.txt";
-string targetPath = @"D:\file2.txt";
+//string sourcePath = @"D:\file1.txt";
+//string targetPath = @"D:\file2.txt";
 
 
 //File, FileInfo e IOException
 /*try
 {
-    FileInfo fileInfo = new FileInfo(sourcePath);
-    fileInfo.CopyTo(targetPath);
-    string[] lines = File.ReadAllLines(sourcePath);
-    foreach (string line in lines)
-    {
-        Console.WriteLine(line);
-    }
+FileInfo fileInfo = new FileInfo(sourcePath);
+fileInfo.CopyTo(targetPath);
+string[] lines = File.ReadAllLines(sourcePath);
+foreach (string line in lines)
+{
+    Console.WriteLine(line);
+}
 }
 catch (IOException e) 
 {
-    Console.WriteLine("An error occured");
-    Console.WriteLine(e.Message);
+Console.WriteLine("An error occured");
+Console.WriteLine(e.Message);
 }*/
 
 
@@ -31,24 +34,24 @@ StreamReader sr = null;
 
 try
 {
-    //fs = new FileStream(sourcePath, FileMode.Open);
-    //sr = new StreamReader(fs);
-    sr = File.OpenText(sourcePath);
-    while (!sr.EndOfStream)
-    {
-        string line = sr.ReadLine();
-        Console.WriteLine(line);
-    }
+//fs = new FileStream(sourcePath, FileMode.Open);
+//sr = new StreamReader(fs);
+sr = File.OpenText(sourcePath);
+while (!sr.EndOfStream)
+{
+    string line = sr.ReadLine();
+    Console.WriteLine(line);
+}
 }
 catch(IOException e)
 {
-    Console.WriteLine("AN error accurred");
-    Console.WriteLine(e.Message);
+Console.WriteLine("AN error accurred");
+Console.WriteLine(e.Message);
 }
 finally
 {
-    //if(fs != null) fs.Close();
-    if(sr != null) sr.Close();
+//if(fs != null) fs.Close();
+if(sr != null) sr.Close();
 }*/
 
 
@@ -56,23 +59,23 @@ finally
 //Using block
 /*try
 {
-    //using(FileStream fs = new FileStream(sourcePath, FileMode.Open))
-    //{
-    //    using(StreamReader sr = new StreamReader(fs))
-    using(StreamReader sr = File.OpenText(sourcePath))
+//using(FileStream fs = new FileStream(sourcePath, FileMode.Open))
+//{
+//    using(StreamReader sr = new StreamReader(fs))
+using(StreamReader sr = File.OpenText(sourcePath))
+    {
+        while (!sr.EndOfStream)
         {
-            while (!sr.EndOfStream)
-            {
-                string line = sr.ReadLine();
-                Console.WriteLine(line);
-            }
+            string line = sr.ReadLine();
+            Console.WriteLine(line);
         }
-    //}
+    }
+//}
 }
 catch (IOException e)
 {
-    Console.WriteLine("AN error accurred");
-    Console.WriteLine(e.Message);
+Console.WriteLine("AN error accurred");
+Console.WriteLine(e.Message);
 }*/
 
 
@@ -80,19 +83,19 @@ catch (IOException e)
 //StreamWriter
 /*try
 {
-    string[] lines = File.ReadAllLines(sourcePath);
-    using(StreamWriter sw = File.AppendText(targetPath))
+string[] lines = File.ReadAllLines(sourcePath);
+using(StreamWriter sw = File.AppendText(targetPath))
+{
+    foreach(string line in lines)
     {
-        foreach(string line in lines)
-        {
-            sw.WriteLine(line.ToUpper());
-        }
+        sw.WriteLine(line.ToUpper());
     }
+}
 }
 catch (IOException e)
 {
-    Console.WriteLine("AN error accurred");
-    Console.WriteLine(e.Message);
+Console.WriteLine("AN error accurred");
+Console.WriteLine(e.Message);
 }*/
 
 
@@ -102,26 +105,26 @@ catch (IOException e)
 
 try
 {
-    var folders = Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
-    Console.WriteLine("FOLDERS:");
-    foreach (var f in folders)
-    {
-        Console.WriteLine(f);
-    }
-    
-    var files = Directory.EnumerateFiles(path, "*.*", SearchOption.AllDirectories);
-    Console.WriteLine("FILES:");
-    foreach (var f in files)
-    {
-        Console.WriteLine(f);
-    }
+var folders = Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
+Console.WriteLine("FOLDERS:");
+foreach (var f in folders)
+{
+    Console.WriteLine(f);
+}
 
-    Directory.CreateDirectory(path + @"\newFolder");
+var files = Directory.EnumerateFiles(path, "*.*", SearchOption.AllDirectories);
+Console.WriteLine("FILES:");
+foreach (var f in files)
+{
+    Console.WriteLine(f);
+}
+
+Directory.CreateDirectory(path + @"\newFolder");
 }
 catch (IOException e) 
 {
-    Console.WriteLine("An error occurred");
-    Console.WriteLine(e.Message);
+Console.WriteLine("An error occurred");
+Console.WriteLine(e.Message);
 }*/
 
 
@@ -142,4 +145,37 @@ Console.WriteLine("GetTempPath: " + Path.GetTempPath());*/
 
 //Exercicios
 
-Console.WriteLine("teste");
+Console.Write("Enter file full path: ");
+string sourceFilePath = Console.ReadLine();
+
+try
+{
+    string[] lines = File.ReadAllLines(sourceFilePath);
+
+    string sourceFolderPath = Path.GetDirectoryName(sourceFilePath);
+    string targetFolderPath = sourceFolderPath + @"\out";
+    string targetFilePath = targetFolderPath + @"\summary.csv";
+
+    Directory.CreateDirectory(targetFolderPath);
+
+    using (StreamWriter sw = File.AppendText(targetFilePath))
+    {
+        foreach (string line in lines)
+        {
+
+            string[] fields = line.Split(',');
+            string name = fields[0];
+            double price = double.Parse(fields[1], CultureInfo.InvariantCulture);
+            int quantity = int.Parse(fields[2]);
+
+            Product prod = new Product(name, price, quantity);
+
+            sw.WriteLine(prod.Name + "," + prod.Total().ToString("F2", CultureInfo.InvariantCulture));
+        }
+    }
+}
+catch (IOException e)
+{
+    Console.WriteLine("An error occurred");
+    Console.WriteLine(e.Message);
+}
