@@ -24,7 +24,7 @@ namespace interfaces.Entities
                 + "\nTax: "
                 + Tax.ToString("F2", CultureInfo.InvariantCulture)
                 + "\nTotal payment: "
-                + TotalPayment.ToString(CultureInfo.InvariantCulture);
+                + TotalPayment.ToString("F2", CultureInfo.InvariantCulture);
         }
 
 

@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using interfaces.Entities;
+using interfaces.Services;
 using System.Globalization;
 
 Console.WriteLine("Enter rental data");
@@ -17,3 +18,10 @@ Console.Write("Enter price per day: ");
 double day = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 CarRental carRental = new CarRental(start, finish, new Vehicle(model));
+
+RentalService reantalService = new RentalService(hour, day);
+
+reantalService.ProcessInvoice(carRental);
+
+Console.WriteLine("INVOICE:");
+Console.WriteLine(carRental.Invoice);
