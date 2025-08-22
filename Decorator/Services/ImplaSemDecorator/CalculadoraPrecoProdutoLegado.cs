@@ -25,6 +25,21 @@ public class CalculadoraPrecoProdutoLegado(ProdutoRepositorio repositorio, ILogg
         precoFinal += imposto;
         logger.LogInformation("Após imposto (10%): {PrecoFinal}", precoFinal);
         
+        // NOVA REGRA 1: Desconto Vip para produtos caros
+        if (produto.PrecoBase > 1500)
+        {
+            decimal desconto = precoFinal * 0.05m;
+            precoFinal -= desconto;
+            logger.LogInformation("Após deconto Vip (10%): {PrecoFinal}", precoFinal);
+        }
+        
+        // NOVA REGRA: Adicionar Frete para produtos abaixo de 200
+        if (produto.PrecoBase < 200)
+        {
+            precoFinal += 15;
+            logger.LogInformation("Após frete (R$15): {PrecoFinal})", precoFinal);
+        }
+        
         logger.LogInformation("\n Cálculo finalizado (versão legado) Preço final {PrecoFinal} ####\n", precoFinal);
         return precoFinal;
     }
