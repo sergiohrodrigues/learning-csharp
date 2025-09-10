@@ -35,6 +35,7 @@ namespace entities.Entities
             {
                 return item.SubTotal();
             }
+            return 0;
         }
     }
 }

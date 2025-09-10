@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course2", "aula2\Course2.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entities", "entities\entities.csproj", "{D11E5E8A-C8CF-4271-BCB3-4AC6BDDE0EF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generics-restrictions", "generics-restrictions\generics-restrictions.csproj", "{57423C05-E959-478F-AE0E-6D44618D8990}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{D11E5E8A-C8CF-4271-BCB3-4AC6BDDE0EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11E5E8A-C8CF-4271-BCB3-4AC6BDDE0EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11E5E8A-C8CF-4271-BCB3-4AC6BDDE0EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57423C05-E959-478F-AE0E-6D44618D8990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57423C05-E959-478F-AE0E-6D44618D8990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57423C05-E959-478F-AE0E-6D44618D8990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57423C05-E959-478F-AE0E-6D44618D8990}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
