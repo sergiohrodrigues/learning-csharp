@@ -1,4 +1,6 @@
-﻿using generics_restrictions.Services;
+﻿using System.Globalization;
+using generics_restrictions.Entities;
+using generics_restrictions.Services;
 
 namespace generics_restrictions;
 
@@ -6,20 +8,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        List<int> list = new List<int>();
+        List<Product> list = new List<Product>();
 
-        Console.WriteLine("Enter N: ");
+        Console.Write("Enter N: ");
         int n = int.Parse(Console.ReadLine());
 
         for (int i = 0; i < n; i++)
         {
-            int x = int.Parse(Console.ReadLine());
-            list.Add(x);
+            string[] vector = Console.ReadLine().Split(',');
+            string name = vector[0];
+            double price = double.Parse(vector[1], CultureInfo.InvariantCulture);
+            list.Add(new Product(name, price));
         }
         
         CalculationService calculationService = new CalculationService();
 
-        int max = calculationService.Max(list);
+        Product max = calculationService.Max(list);
 
         Console.WriteLine("Max:");
         Console.WriteLine(max);
