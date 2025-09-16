@@ -1,4 +1,4 @@
-namespace HashSet_SortedSet.Entities;
+namespace Exercicio_resolvido.Entities;
 
 public class LogRecord
 {

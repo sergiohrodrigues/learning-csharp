@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics-set-dictionary", "Generics-set-dictionary\Generics-set-dictionary.csproj", "{66B2F1CC-DCC8-4944-93B6-D9D0796E02DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics-set-dictionary\Generics\Generics.csproj", "{66B2F1CC-DCC8-4944-93B6-D9D0796E02DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritanceAndPolymorphism", "inheritanceAndPolymorphism\inheritanceAndPolymorphism.csproj", "{3FA8AD32-44C0-49D0-A238-E77843D47A9B}"
 EndProject
@@ -27,11 +27,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course2", "aula2\Course2.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entities", "entities\entities.csproj", "{D11E5E8A-C8CF-4271-BCB3-4AC6BDDE0EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generics-restrictions", "generics-restrictions\generics-restrictions.csproj", "{57423C05-E959-478F-AE0E-6D44618D8990}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics-restrictions", "Generics-set-dictionary\Generics-restrictions\Generics-restrictions.csproj", "{57423C05-E959-478F-AE0E-6D44618D8990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "getHashCode-equals", "getHashCode-equals\getHashCode-equals.csproj", "{2D1F6933-E179-4469-8910-71C1DB39E209}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetHashCode-Equals", "Generics-set-dictionary\GetHashCode-Equals\GetHashCode-Equals.csproj", "{2D1F6933-E179-4469-8910-71C1DB39E209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet-SortedSet", "HashSet-SortedSet\HashSet-SortedSet.csproj", "{057F86B5-E447-40EE-9B27-A683BF728D2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet-SortedSet-part1", "Generics-set-dictionary\HashSet-SortedSet-part1\HashSet-SortedSet-part1.csproj", "{057F86B5-E447-40EE-9B27-A683BF728D2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generics-set-dictionary", "Generics-set-dictionary", "{8B030F55-402F-4435-A558-8462223A6E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet-SortedSet-part2", "Generics-set-dictionary\HashSet-SortedSet-part2\HashSet-SortedSet-part2.csproj", "{AB5D2A7C-52E1-4E4A-A530-43B62FD84A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecoes-hash", "Generics-set-dictionary\Colecoes-hash\Colecoes-hash.csproj", "{B0E4F3E9-46F8-4DD6-9A65-6348AC7729FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio-resolvido", "Generics-set-dictionary\Exercicio-resolvido\Exercicio-resolvido.csproj", "{BF19C7AE-F610-43F5-9D7F-9130D0895900}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,5 +110,26 @@ Global
 		{057F86B5-E447-40EE-9B27-A683BF728D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{057F86B5-E447-40EE-9B27-A683BF728D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{057F86B5-E447-40EE-9B27-A683BF728D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5D2A7C-52E1-4E4A-A530-43B62FD84A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5D2A7C-52E1-4E4A-A530-43B62FD84A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5D2A7C-52E1-4E4A-A530-43B62FD84A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5D2A7C-52E1-4E4A-A530-43B62FD84A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E4F3E9-46F8-4DD6-9A65-6348AC7729FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E4F3E9-46F8-4DD6-9A65-6348AC7729FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E4F3E9-46F8-4DD6-9A65-6348AC7729FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E4F3E9-46F8-4DD6-9A65-6348AC7729FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF19C7AE-F610-43F5-9D7F-9130D0895900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF19C7AE-F610-43F5-9D7F-9130D0895900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF19C7AE-F610-43F5-9D7F-9130D0895900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF19C7AE-F610-43F5-9D7F-9130D0895900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB5D2A7C-52E1-4E4A-A530-43B62FD84A97} = {8B030F55-402F-4435-A558-8462223A6E36}
+		{66B2F1CC-DCC8-4944-93B6-D9D0796E02DF} = {8B030F55-402F-4435-A558-8462223A6E36}
+		{057F86B5-E447-40EE-9B27-A683BF728D2B} = {8B030F55-402F-4435-A558-8462223A6E36}
+		{57423C05-E959-478F-AE0E-6D44618D8990} = {8B030F55-402F-4435-A558-8462223A6E36}
+		{2D1F6933-E179-4469-8910-71C1DB39E209} = {8B030F55-402F-4435-A558-8462223A6E36}
+		{B0E4F3E9-46F8-4DD6-9A65-6348AC7729FD} = {8B030F55-402F-4435-A558-8462223A6E36}
+		{BF19C7AE-F610-43F5-9D7F-9130D0895900} = {8B030F55-402F-4435-A558-8462223A6E36}
 	EndGlobalSection
 EndGlobal

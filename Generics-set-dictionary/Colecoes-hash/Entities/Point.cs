@@ -1,4 +1,4 @@
-namespace HashSet_SortedSet.Entities;
+namespace Colecoes_hash.Entities;
 
 struct Point {
     public int X { get; set; }

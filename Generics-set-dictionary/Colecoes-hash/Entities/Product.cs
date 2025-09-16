@@ -1,4 +1,4 @@
-namespace HashSet_SortedSet.Entities;
+namespace Colecoes_hash.Entities;
 
 class Product {
     public string Name { get; set; }
