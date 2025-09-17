@@ -19,7 +19,3 @@ obj/
 *.suo
 *.userosscache
 *.sln.docstates
-
-# Arquivos de configuração de build gerados
-*.AssemblyInfo.cs
-*.AssemblyInfoInputs.cache
