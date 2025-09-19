@@ -2,7 +2,8 @@ using System.Globalization;
 
 namespace Comparison.Entities;
 
-public class Product : IComparable<Product>
+public class Product 
+    //: IComparable<Product>
 {
     public string Name { get; set; }
     public double Price { get; set; }
@@ -18,8 +19,8 @@ public class Product : IComparable<Product>
         return Name + ", " + Price.ToString("F2", CultureInfo.InvariantCulture);
     }
     
-    public int CompareTo(Product other)
-    {
-        return Name.ToUpper().CompareTo(other.Name.ToUpper());
-    }
+    // public int CompareTo(Product other)
+    // {
+    //     return Name.ToUpper().CompareTo(other.Name.ToUpper());
+    // }
 }
