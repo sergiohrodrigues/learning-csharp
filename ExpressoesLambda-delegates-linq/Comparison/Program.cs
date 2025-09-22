@@ -6,6 +6,23 @@ class Program
 {
     static void Main(string[] args)
     {
+    //     Comparison<T> (System)
+    //     https://msdn.microsoft.com/en-us/library/tfakywbh(v=vs.110).aspx
+    
+        // public delegate int Comparison<in T>(T x, T y);
+        
+        // Método Sort com Comparison<T> da classe List:
+        // https://msdn.microsoft.com/en-us/library/w56d4y5z%28v=vs.110%29.aspx
+    
+    //      Resumo da aula
+    //      public void Sort(Comparison<T> comparison)
+    
+    //     • Referência simples de método como parâmetro
+    //     • Referência de método atribuído a uma variável tipo delegate
+    //     • Expressão lambda atribuída a uma variável tipo delegate
+    //     • Expressão lambda inline
+
+        
         List<Product> list = new List<Product>();
         list.Add(new Product("TV", 900.00));
         list.Add(new Product("Notebook", 1200.00));
