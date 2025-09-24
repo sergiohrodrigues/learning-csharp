@@ -18,7 +18,7 @@ class Program
         
         // Delegates pré-definidos
         //     • Action
-        //     • Func
+        //     • Func-Select
         //     • Predicate
 
         double a = 10;
